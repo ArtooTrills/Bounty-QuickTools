@@ -3,22 +3,27 @@ There are 2 different datasets and you need to merge them into a single response
 
 ### Example 1
 **Input DataSet 1**
+```
 Name: Ravi Kumar
 Source: Provider1
 Phone: 
   Mobile1: 9998887770
   Landline: 099-444123
 DOB: 01-02-1990
+```
 
 **Input DataSet 2**
+```
 Name: Ravi Kumar
 Source: Provider2
 Phone: 
   Mobile2: 8887776660
   Landline: 099-444123
 Address: Jayanagar, Bangalore
+```
 
 **Output**
+```
 Name: Ravi Kumar
 Source: Combined
 Phone: 
@@ -27,28 +32,31 @@ Phone:
   Landline: 099-444123
 DOB: 01-02-1990
 Address: Jayanagar, Bangalore
-
+```
 
 ### Example 2
 **Input DataSet 1**
+```
 Name: Ravi Kumar
 Source: Provider1
 Phone: 
   Mobile1: 9998887770
   Landline: 099-444123
 DOB: 01-02-1990
-
+```
 **Input DataSet 2**
+```
 Name: Ravi Kiran
 Source: Provider2
 Phone: 
   Mobile2: 8887776661
   Landline: 099-444123
 Address: Jayanagar, Bangalore
-
+```
 In this example "Name" and "Mobile2" have slightly different values and hence cannot be merged directly. We need to keep them separate
 
 **Conflicted Output**
+```
 Name: Ravi Kumar, Ravi Kiran
 Source: Combined
 Phone: 
@@ -57,7 +65,7 @@ Phone:
   Landline: 099-444123
 DOB: 01-02-1990
 Address: Jayanagar, Bangalore
-
+```
 **Notes** Use a JSON structure for your input and output
 
 ## Final Words
