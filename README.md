@@ -66,7 +66,10 @@ Phone:
 DOB: 01-02-1990
 Address: Jayanagar, Bangalore
 ```
-**Notes** Use a JSON structure for your input and output
+**Note** 
+- Use a JSON structure for your input and output
+- Your program should run for any kind of data structure
+- Do not use any libraries
 
 ## Final Words
 
