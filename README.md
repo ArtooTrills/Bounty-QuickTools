@@ -1,4 +1,4 @@
-# Deep Merge
+# Task 1: Deep Merge
 There are 2 different datasets and you need to merge them into a single response. Write a program that accepts 2 different datasets and checks if they can merged. The output needs to be a single dataset
 
 ### Example 1
@@ -66,10 +66,27 @@ Phone:
 DOB: 01-02-1990
 Address: Jayanagar, Bangalore
 ```
+
 **Note** 
 - Use a JSON structure for your input and output
 - Your program should run for any kind of data structure
 - Do not use any libraries
+
+# Task 2: User details
+Create a schema in MySQL that captures employee details, 
+
+- employee basic details - employee_id, name, phone, email
+- employee designation - designation title, designation start_date, designation end_date
+- office location - loaction_id, location address
+
+- employee offices - employee_id, office_location_id
+- employee login - employee_id, office_location_id, login_time
+
+Write a script which takes employee_id as an input parameter and shows all details for that employee - name, phone, designation, login_time and office_location address of login
+
+**Note** 
+- Write your program in node.js or python
+- Do not use any libraries. Your script should run a terminal command
 
 ## Final Words
 
